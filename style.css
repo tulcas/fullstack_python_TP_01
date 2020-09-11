@@ -1,0 +1,36 @@
+#topheader {
+    color: white;
+    background-color:green;
+
+}
+#enlacestop {
+    background-color:orange;
+}
+#enlaces{
+    background-color: chocolate;
+}
+
+#h1titulo {
+    text-align: center;
+}
+#menu {
+    text-orientation: inherit;
+}
+
+#h3hamburgesa {
+    text-decoration-color: blueviolet;
+}
+
+#fotoburger{
+    display:block;
+    margin:auto;
+    }
+
+#receta {
+    background-color: chocolate;
+    
+}
+#parrafo_foter {
+    background-color: orange;
+    text-align: center;
+}
