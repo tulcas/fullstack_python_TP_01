@@ -25,7 +25,10 @@
     display:block;
     margin:auto;
     }
-
+#logo{
+        display:block;
+        margin:auto;
+}
 #receta {
     background-color: chocolate;
     
