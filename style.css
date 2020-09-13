@@ -1,11 +1,18 @@
 #topheader {
-    color: white;
-    background-color:green;
+  text-align: left;
+  height: 1200px;
+  background: orange;
+  height: 100px;
+  font-family: 'Open Sans', sans-serif;
+  color: #FFFFFF;
+  padding: 20px;
+    
 
 }
 #enlacestop {
-    background-color:orange;
+    background-color:rgb(186, 95, 85);
 }
+
 #enlaces{
     background-color: chocolate;
 }
@@ -83,4 +90,37 @@
   }
 #footerid {
     text-align: center;
+    height: 1200px;
+    background: orange;
+    height: 100px;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    padding: 20px;
+  }    
+
+
+.enlaceboton {    font-family: verdana, arial, sans-serif;
+  font-size: 10pt;
+  font-weight: bold;
+  padding: 4px;
+  background-color: #ffffcc;
+  color: white;
+  text-decoration: none;
+}
+.enlaceboton:link,
+.enlaceboton:visited {
+  border-top: 1px solid #cccccc;
+  border-bottom: 2px solid #666666;
+  border-left: 1px solid #cccccc;
+  border-right: 2px solid #666666;
+}
+.enlaceboton:hover {
+   border-bottom: 1px solid #cccccc;
+  border-top: 2px solid #666666;
+  border-right: 1px solid #cccccc;
+  border-left: 2px solid #666666;
+}
+
+#contacto, p {
+  color: black;
 }

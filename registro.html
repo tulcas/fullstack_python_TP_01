@@ -13,11 +13,11 @@
     <header id="topheader">
 
         <nav id="enlacestop">
-            <a href="index.html" id="enlaces">Home</a>
-            <a href="about.html" id="enlaces">Acerca de</a>
-            <a href="contact.html" id="enlaces">contacto</a>
-            <a href="registro.html" id="enlaces">Registrarse</a>
-            <a href="sucursales.html" id="enlaces">Sucursales</a>
+            <a href="index.html" id="enlaces"  class="enlaceboton" >Home</a>
+            <a href="about.html" id="enlaces" class="enlaceboton" >Acerca de</a>
+            <a href="contact.html" id="enlaces" class="enlaceboton" >contacto</a>
+            <a href="registro.html" id="enlaces" class="enlaceboton" >Registrarse</a>
+            <a href="sucursales.html" id="enlaces" class="enlaceboton" >Sucursales</a>
         </nav>
     
         <h1 id="h1titulo"> La Chancha y los 20 </h1>
@@ -25,13 +25,14 @@
 
     <menu>
         <h3>Formulario de Registro:</h3>
-        <form action="show_data.html" target="_blank">
+        
+    <form action="show_data.html" target="_blank">
         <label for="firstname"> Nombre: </label> <input type="text" name="firstname" placeholder="Ingse su nombre aqui..."> <br><br>
         <label for="lastname"> Apellido: </label> <input type="text" name="lastname" placeholder="Ingse su apellido aqui..."> <br><br>
         <label for="street"> Direccion: </label> <input type="text" name="address" placeholder="Ingse su direccion aqui..."> <br><br>
         <label for="city"> Ciudad: </label> <input type="text" name="city" value="C.A.B.A"> <br><br>
         <label for="zipcode"> Codigo Postal: </label> <input type="text" name="zipcode" placeholder="Ingse su codigo postal aqui..."> <br><br>
-        <label for="BirthDate"> Fecha de Nacimiento: (mm/dd/yyyy) </label> <input type="text" name="birthdate"> <br> <br>
+        <label for="BirthDate"> Fecha de Nacimiento: (mm/dd/yyyy) </label> <input type="date" name="birthdate"> <br> <br>
         
         <p>Genero: 
             <input type="radio" name="gender" value="hombre" checked > hombre
@@ -40,18 +41,20 @@
         </p>
 
         <p> Estudios:
-            <input type="checboc" name="estudio" value="primarios"> Primarios
-            <input type="checboc" name="estudio" value="Secundarios"> Secundarios
-            <input type="checboc" name="estudio" value="Terciarios"> Terciarios
-            <input type="checboc" name="estudio" value="Universitarios"> Universitarios
-            <input type="checboc" name="estudio" value="Otro"> Otro
+            <input type="checkbox" name="estudio" value="primarios"> Primarios
+            <input type="checkbox" name="estudio" value="Secundarios"> Secundarios
+            <input type="checkbox" name="estudio" value="Terciarios"> Terciarios
+            <input type="checkbox" name="estudio" value="Universitarios"> Universitarios
+            <input type="checkbox" name="estudio" value="Otro"> Otro
         </p>
         <input type="submit" value="Enviar" >
+        
     </form>
+
     <p>Si usted hace click en el boton "Enviar" , la informacion sera enviada a la pagina "show_data.html"</p>
 
     </menu>
-    
+
     <footer id="footerid">
         <!-- Add font awesome icons -->
         <a href="https://twitter.com/" class="fa fa-twitter"></a>
