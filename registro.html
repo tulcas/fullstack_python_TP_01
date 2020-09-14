@@ -33,7 +33,10 @@
         <label for="city"> Ciudad: </label> <input type="text" name="city" value="C.A.B.A"> <br><br>
         <label for="zipcode"> Codigo Postal: </label> <input type="text" name="zipcode" placeholder="Ingse su codigo postal aqui..."> <br><br>
         <label for="BirthDate"> Fecha de Nacimiento: (mm/dd/yyyy) </label> <input type="date" name="birthdate"> <br> <br>
-        
+        <label for="email"> e-mail </label> <input type="email" name="email"> <br> <br>
+        <label for="password"> Clave </label> <input type="password" name="email"> <br> <br>
+        <label for="linktp"> Link del TP </label> <input type="link" name="linktp"> <br> <br>
+
         <p>Genero: 
             <input type="radio" name="gender" value="hombre" checked > hombre
             <input type="radio" name="gender" value="mujer" checked> mujer
@@ -41,11 +44,26 @@
         </p>
 
         <p> Estudios:
-            <input type="checkbox" name="estudio" value="primarios"> Primarios
-            <input type="checkbox" name="estudio" value="Secundarios"> Secundarios
-            <input type="checkbox" name="estudio" value="Terciarios"> Terciarios
-            <input type="checkbox" name="estudio" value="Universitarios"> Universitarios
-            <input type="checkbox" name="estudio" value="Otro"> Otro
+            <input type="checkbox" name="lenguajesprog" value="HTML"> HTML
+            <input type="checkbox" name="lenguajesprog" value="CSS"> CSS
+            <input type="checkbox" name="lenguajesprog" value="Bootstrap"> Bootstrap
+            <input type="checkbox" name="lenguajesprog" value="JavaScript"> JavaScript
+            <input type="checkbox" name="lenguajesprog" value="TypeScript"> TypeScript
+            <input type="checkbox" name="lenguajesprog" value="Angular"> Angular
+            <input type="checkbox" name="lenguajesprog" value="Base de datos"> Base de datos
+            <input type="checkbox" name="lenguajesprog" value="Python"> Python
+            <input type="checkbox" name="lenguajesprog" value="DJango"> DJango
+          
+           <p>Estudios:
+            <select name="Estudios"> Estudios
+                <option>Primario</option>        
+                <option>Secundario</option>         
+                <option>Terciario</option>
+                <option>Universitario</option>
+            </select>
+           </p>
+           <textarea name="comment" form="usrform">deja un comentario... </textarea>
+    
         </p>
         <input type="submit" value="Enviar" >
         

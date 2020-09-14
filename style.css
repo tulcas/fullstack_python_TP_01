@@ -1,7 +1,7 @@
 #topheader {
   text-align: left;
   height: 1200px;
-  background: orange;
+  background:orange;
   height: 100px;
   font-family: 'Open Sans', sans-serif;
   color: #FFFFFF;
@@ -10,7 +10,7 @@
 
 }
 #enlacestop {
-    background-color:rgb(186, 95, 85);
+    background-color:black;
 }
 
 #enlaces{
@@ -41,7 +41,7 @@
     
 }
 #parrafo_foter {
-    background-color: orange;
+    background-color: 727c4a;
     text-align: center;
 }
 
