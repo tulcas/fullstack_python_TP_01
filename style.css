@@ -10,7 +10,7 @@
 
 }
 #enlacestop {
-    background-color:black;
+    background-color:rgb(216, 176, 100);
 }
 
 #enlaces{
@@ -295,7 +295,7 @@ img { max-width: 100%; height: auto; }
 
 
 #h1titulo {
-  color:brown;
+  color:rgb(79, 18, 18);
   font-family: "Snell Roundhand" !important ;
 
 }
