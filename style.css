@@ -292,3 +292,10 @@ img { max-width: 100%; height: auto; }
       content: attr(data-src-800px, url);
   }
 }
+
+
+#h1titulo {
+  color:brown;
+  font-family: "Snell Roundhand" !important ;
+
+}
