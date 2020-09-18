@@ -6,7 +6,11 @@
     <title>La chancha y los 20</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+     <!-- responsive -->
+     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+     <meta name="HandheldFriendly" content="true">
+     
 </head>
 <body>
         
@@ -18,32 +22,34 @@
             <a href="contact.html" id="enlaces" class="enlaceboton" >contacto</a>
             <a href="registro.html" id="enlaces" class="enlaceboton" >Registrarse</a>
             <a href="sucursales.html" id="enlaces" class="enlaceboton" >Sucursales</a>
+            <a href="clientes.html" id="enlaces" class="enlaceboton" >Nuestros clientes</a>
         </nav>
     
         <h1 id="h1titulo"> La Chancha y los 20 </h1>
     </header>
 
     <menu>
-        <h3>Formulario de Registro:</h3>
-        
-    <form action="show_data.html" target="_blank">
-        <label for="firstname"> Nombre: </label> <input type="text" name="firstname" placeholder="Ingse su nombre aqui..."> <br><br>
-        <label for="lastname"> Apellido: </label> <input type="text" name="lastname" placeholder="Ingse su apellido aqui..."> <br><br>
-        <label for="street"> Direccion: </label> <input type="text" name="address" placeholder="Ingse su direccion aqui..."> <br><br>
-        <label for="city"> Ciudad: </label> <input type="text" name="city" value="C.A.B.A"> <br><br>
-        <label for="zipcode"> Codigo Postal: </label> <input type="text" name="zipcode" placeholder="Ingse su codigo postal aqui..."> <br><br>
-        <label for="BirthDate"> Fecha de Nacimiento: (mm/dd/yyyy) </label> <input type="date" name="birthdate"> <br> <br>
-        <label for="email"> e-mail </label> <input type="email" name="email"> <br> <br>
-        <label for="password"> Clave </label> <input type="password" name="email"> <br> <br>
-        <label for="linktp"> Link del TP </label> <input type="link" name="linktp"> <br> <br>
+        <h3 class="tittuloform" align=center >REGISTRO</h3>
 
-        <p>Genero: 
+    <form action="show_data.html" target="_blank" class="reg_form">
+
+        <label for="firstname"> NOMBRE * </label> <input type="text" name="firstname" required placeholder="Ingse su nombre aqui..." class="name">
+        <label for="lastname"> APELLIDO *  </label> <input type="text" name="lastname" required placeholder="Ingse su apellido aqui...">
+        <label for="street"> DIRECCION </label> <input type="text" name="address" placeholder="Ingse su direccion aqui..."> 
+        <label for="city"> CIUDAD </label> <input type="text" name="city" value="C.A.B.A"> 
+        <label for="zipcode"> CODIGO POSTAL </label> <input type="text" name="zipcode" placeholder="Ingse su codigo postal aqui...">
+        <label for="BirthDate"> FECHA DE NACIMIENTO </label> <input type="date" name="birthdate">
+        <label for="email"> E-MAIL * </label> <input type="email" name="email" required>
+        <label for="password"> CLAVE </label> <input type="password" name="password "> 
+        <label for="linktp"> LINK DEL TRABAJO PRACTICO </label> <input type="text" name="linktp">
+`
+        <p>GENERO:  <br><br>
             <input type="radio" name="gender" value="hombre" checked > hombre
             <input type="radio" name="gender" value="mujer" checked> mujer
             <input type="radio" name="gender" value="otro" checked> otro
         </p>
 
-        <p> Estudios:
+        <p> CONOCIMIENTOS: <br><br>
             <input type="checkbox" name="lenguajesprog" value="HTML"> HTML
             <input type="checkbox" name="lenguajesprog" value="CSS"> CSS
             <input type="checkbox" name="lenguajesprog" value="Bootstrap"> Bootstrap
@@ -54,7 +60,7 @@
             <input type="checkbox" name="lenguajesprog" value="Python"> Python
             <input type="checkbox" name="lenguajesprog" value="DJango"> DJango
           
-           <p>Estudios:
+           <p>ESTUDIOS: <br><br>
             <select name="Estudios"> Estudios
                 <option>Primario</option>        
                 <option>Secundario</option>         
@@ -69,7 +75,7 @@
         
     </form>
 
-    <p>Si usted hace click en el boton "Enviar" , la informacion sera enviada a la pagina "show_data.html"</p>
+    <!-- <p>Si usted hace click en el boton "Enviar" , la informacion sera enviada a la pagina "show_data.html"</p> -->
 
     </menu>
 
